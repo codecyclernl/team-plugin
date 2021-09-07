@@ -1,0 +1,19 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    name:
+        label: codecycler.team::lang.attributes.name
+        type: text
+        searchable: true
+        sortable: true
+    role:
+        label: codecycler.team::lang.attributes.role
+        type: text
+        searchable: true
+        sortable: true
+    is_published:
+        label: codecycler.team::lang.attributes.is_published
+        type: switch
+        sortable: true

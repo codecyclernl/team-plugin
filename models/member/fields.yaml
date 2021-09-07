@@ -1,0 +1,32 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: codecycler.team::lang.attributes.name
+        span: left
+        type: text
+    role:
+        label: codecycler.team::lang.attributes.role
+        span: right
+        type: text
+    bio:
+        label: codecycler.team::lang.attributes.bio
+        span: left
+        type: richeditor
+        size: large
+
+secondaryTabs:
+    fields:
+        avatar:
+            label: codecycler.team::lang.attributes.avatar
+            span: full
+            type: fileupload
+            mode: image
+            useCaption: false
+
+        is_published:
+            label: codecycler.team::lang.attributes.is_published
+            span: full
+            type: checkbox
